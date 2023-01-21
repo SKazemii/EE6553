@@ -22,7 +22,11 @@
     "code-runner.ignoreSelection": true,
     "code-runner.saveFileBeforeRun": true,
     "[plaintext]": {
-        "editor.quickSuggestions": false
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        }
     },
     "editor.quickSuggestionsDelay": 100,
     "zenMode.centerLayout": false,
@@ -34,4 +38,9 @@
     "workbench.settings.editor": "json",
     "workbench.statusBar.feedback.visible": false,
     "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#08342C",
+        "titleBar.activeBackground": "#0C483E",
+        "titleBar.activeForeground": "#F2FDFB"
+    },
 }
